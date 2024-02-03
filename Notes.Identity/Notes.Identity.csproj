@@ -13,4 +13,15 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Styles\app.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Auth\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\_ViewImports.cshtml" />
+    </ItemGroup>
+
 </Project>
